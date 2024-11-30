@@ -81,5 +81,56 @@ letter-spacing: -2%;
     letter-spacing: -1%;
 }
 
+what-we-believe{
+  padding-top: 100px;
+}
+@media(max-width:992px){
+  .what-we-belive{
+    padding-top: 50px;
+  }
+}
+.what-we-believe .container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.what-we-believe .container h2{
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height:22.4px;
+  letter-spacing: 4%;
+  width: 25%;
+  margin-left: 26px; 
+  text-transform: uppercase;
+}
 
+.what-we-believe article {
+  width: 70%;
+}
+.what-we-believe article p {
+  line-height: 30px;
+  font-family:"Inter", sans-serif;
+  font-weight: 400;
+  
+}
+
+@media  (max-width:992px){
+  .what-we-believe .container h2{
+   width: 100%;
+  margin-left: 0;
+  margin-bottom: 15px;
+}
+
+   .what-we-believe .container article {
+      width: 100%;
+  } 
+
+ .some-vegetables .lettuce{
+  width: 100%;
+ }
+ .some-vegetables figure{
+  width:100%;
+}
+
+}
 
