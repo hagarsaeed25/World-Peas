@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Signika:wght@300..700&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -32,4 +32,93 @@
   img{
     width: 100%;
     display: block;
+  }
+  .heading .container {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e6e6e6;
+  }
+  .heading h1 {
+    margin: 0 24px 16px 0;
+    letter-spacing: -2%;
+    line-height: 120%;
+    font-size: 64px;
+    font-family: "Newsreader", serif;
+  }
+  .heading span {
+    font-family: "Inter", sans-serif;
+  }
+  .basket .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+    gap: 30px;
+  }
+  .basket .product-list {
+    flex-grow: 1;
+  }
+  .basket .product-list .product {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: var(--bg);
+    border: 1px solid #e6e6e6;
+    border-radius: 24px;
+    overflow: hidden;
+  }
+  .basket .product-list .product .product-details {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .basket .product-info h3 {
+    font-family: "Inter", sans-serif;
+  }
+  .basket .product-info .weight {
+    margin-top: 10px;
+  }
+  .basket .product-info .weight span {
+    display: block;
+    background-color: var(--white);
+    color: var(--black);
+    border-radius: 20px;
+    border: 1px solid #e6e6e6;
+    text-align: center;
+    line-height: 40px;
+    width: 128px;
+    height: 40px;
+  }
+  .basket .price-vs-weight {
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--green);
+    margin-top: 20px;
+  }
+  .basket .price {
+    padding: 40px 20px;
+  }
+  .order-summary {
+    flex-grow: 1;
+    align-self: start;
+    font-family: "Inter", sans-serif;
+    padding: 20px 10px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    background-color: var(--bg);
+  }
+  .order-summary ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  .order-summary .payment {
+    display: block;
+    padding: 10px;
+    color: var(--white);
+    background-color: var(--green);
+    border-radius: 8px;
   }
