@@ -25,4 +25,39 @@ a{
   --white: white;
   --black: black;
 }
+.hero .container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.hero h1{
+font-family: "Newsreader" , serif;
+text-align: center;
+font-weight: 400;
+font-size: 46px;
+line-height:60px;
+letter-spacing: -2%;
+
+
+
+}
+.hero .btn{
+    display: block;
+    width: fit-content;
+    padding: 15px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color:var(--cream);
+    background-color: var(--green);
+    border-radius: 8px;
+    margin: 40px auto;
+}
+.hero .btn:hover{
+    background-color: #2b4712;
+    transition: all 0.3s ease;
+}
+
 
