@@ -59,5 +59,27 @@ letter-spacing: -2%;
     background-color: #2b4712;
     transition: all 0.3s ease;
 }
+.some-vegetables{
+  padding:0 20px;
+}
+.some-vegetables .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .some-vegetables .lettuce{
+  width:40%;
+ }
+ .some-vegetables figure{
+  width: 50%;
+ }
+.some-vegetables .banger-image figcaption{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 160%;
+    letter-spacing: -1%;
+}
+
 
 
