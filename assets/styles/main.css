@@ -4,3 +4,25 @@
     margin: 0;
     box-sizing: border-box;
 }
+.container{
+  margin: 0 auto;
+  padding: 0 15px;
+
+}
+img{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+.hero{
+  padding: 100px 0;
+}
+:root{
+  --green: #426b1f;
+  --gray: #6d6d6d;
+  --cream: #fafaf5;
+  --white: white;
+  --black: black;
+}
+
