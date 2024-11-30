@@ -1,0 +1,35 @@
+ @import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Parkinsans:wght@300..800&family=Signika:wght@300..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{
+    --green: #426b1f;
+    --gray: #6d6d6d;
+    --cream: #fafaf5;
+    --white: white;
+    --black: black;
+    --border-color:#E6E6E6;
+  
+  }
+  .container{
+    margin: auto;
+    padding: 0 15px;
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+      padding: 0;
+    }
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  img{
+    width: 100%;
+    display: block;
+  }
